@@ -1,0 +1,50 @@
+/* Page-Specific Styles for About Page */
+header {
+    height: 100vh;
+    background-image: url('./images/school.png');
+  }
+  
+  .about-section {
+    display: flex; /* Enable Flexbox */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 90vh; /* Ensure it takes the full height of the header */
+    text-align: center; /* Center align text */
+    color: white;
+  }
+  
+  .about-section h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .team {
+    padding: 40px;
+  }
+  
+  .team h2 {
+    text-align: center;
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .team-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .team-gallery img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  

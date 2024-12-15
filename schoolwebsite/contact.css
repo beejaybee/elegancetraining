@@ -1,0 +1,49 @@
+/* Page-Specific Styles for Contact Page */
+header {
+    height: 100vh;
+    background-image: url('./images/school.png');
+  }
+  .contact-section {
+    display: flex; /* Enable Flexbox */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: flex-start; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 82.5vh; /* Ensure it takes the full height of the header */
+    text-align: center; /* Center align text */
+    color: white;
+    margin-bottom: 10px;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  .contact-form h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  
+  .contact-form form label {
+    font-size: 1rem;
+    text-align: left;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%; /* Full width of the form */
+  }
+
+  .contact-form button {
+    width: 50%;
+  }
+  
+  .contact-form form textarea {
+    resize: none; /* Prevent resizing */
+    height: 100px;
+  }
+  

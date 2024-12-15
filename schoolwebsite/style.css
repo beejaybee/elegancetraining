@@ -1,0 +1,85 @@
+/* Common Dark Mode Styles */
+body {
+  font-family: cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Dark mode background */
+  color: #e0e0e0; /* Light text */
+}
+
+header {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+header .overlay {
+  background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+nav a {
+  color: #4caf50; /* Green links */
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #181818; /* Footer background */
+  color: #e0e0e0;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Reusable Form Styles */
+form input, form textarea, form button {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background-color: #252525;
+  color: #e0e0e0;
+}
+
+form button {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #81c784; /* Lighter green on hover */
+}
+
+/* Typography */
+h1, h2 {
+  margin: 0;
+  color: #ffffff;
+}
+
+p {
+  margin: 10px 0;
+  color: #cccccc; /* Softer text */
+}
